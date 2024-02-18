@@ -44,7 +44,7 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}ko"
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}/ko"
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
@@ -80,7 +80,7 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --config _config_en.yml --destination "./_site_en" --baseurl "${{ steps.pages.outputs.base_path }}en"
+        run: bundle exec jekyll build --config _config_en.yml --destination "./_site_en" --baseurl "${{ steps.pages.outputs.base_path }}/en"
         env:
           JEKYLL_ENV: production
       - name: Upload artifact EN
