@@ -24,10 +24,10 @@ author     : Our Caregiver
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
 
-locale: "en-US" # See available languages in _data/sitetext.yml
-lang: "en"
-#locale: "ko-KR" # See available languages in _data/sitetext.yml
-#lang: "ko" # See available languages in _portfolio
+#locale: "en-US" # See available languages in _data/sitetext.yml
+#lang: "en"
+locale: "ko-KR" # See available languages in _data/sitetext.yml
+lang: "ko" # See available languages in _portfolio
 
 analytics:
   google: #Google Analytics tracking code here
