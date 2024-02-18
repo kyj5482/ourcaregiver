@@ -44,7 +44,7 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}/ko"
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
@@ -55,7 +55,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}ko
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
@@ -64,7 +64,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   # Build job for EN
-  build_en:
+  build_ko:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -80,23 +80,23 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --config _config_en.yml --destination "./_site_en" --baseurl "${{ steps.pages.outputs.base_path }}/en"
+        run: bundle exec jekyll build --config _config_ko.yml --destination "./_site_ko" --baseurl "${{ steps.pages.outputs.base_path }}/ko"
         env:
           JEKYLL_ENV: production
-      - name: Upload artifact EN
+      - name: Upload artifact KO
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
         with:
-          name: "github-pages-en"
-          path: "./_site_en"
+          name: "github-pages-ko"
+          path: "./_site_ko"
 
   # Deployment job
-  deploy_en:
+  deploy_ko:
     environment:
-      name: github-pages-en
-      url: ${{ steps.deployment.outputs.page_url }}en
+      name: github-pages-ko
+      url: ${{ steps.deployment.outputs.page_url }}ko
     runs-on: ubuntu-latest
-    needs: build_en
+    needs: build_ko
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
