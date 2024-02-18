@@ -1,11 +1,11 @@
 ---
 caption: #what displays in the portfolio grid:
-  lang: ko
   title: 스페셜 케어
   subtitle: 
   thumbnail: assets/img/portfolio/06-thumbnail.jpg
   
 #what displays when the item is clicked:
+lang: ko
 title: 스페셜 케어
 subtitle: 
 image: assets/img/portfolio/06-full.jpg

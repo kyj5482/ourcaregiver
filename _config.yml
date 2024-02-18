@@ -14,7 +14,7 @@
 theme: jekyll-agency
 
 url    : "https://kyj5482.github.io/ourcaregiver" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/ko" # the subpath of your site, e.g. /blog
 
 title      : Our Caregiver
 email      : ourcaregiverbiz@gmail.com #this is also the email contact forms will go to
@@ -24,8 +24,9 @@ author     : Our Caregiver
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
 
-  #locale: "en-US" # See available languages in _data/sitetext.yml
-  #lang: "en"
+# Locale
+#locale: "en-US" # See available languages in _data/sitetext.yml
+#lang: "en"
 locale: "ko-KR" # See available languages in _data/sitetext.yml
 lang: "ko" # See available languages in _portfolio
 

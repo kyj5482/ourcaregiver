@@ -1,11 +1,11 @@
 ---
 caption: #what displays in the portfolio grid:
-  lang: en
   title: Nursing and Therapy
   subtitle: 
   thumbnail: assets/img/portfolio/04-thumbnail.jpg
   
 #what displays when the item is clicked:
+lang: en
 title: Nursing and Therapy
 subtitle: 
 image: assets/img/portfolio/04-full.jpg

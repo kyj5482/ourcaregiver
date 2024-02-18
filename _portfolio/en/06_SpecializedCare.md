@@ -1,11 +1,11 @@
 ---
 caption: #what displays in the portfolio grid:
-  lang: en
   title: Specialized Care
   subtitle: 
   thumbnail: assets/img/portfolio/06-thumbnail.jpg
   
 #what displays when the item is clicked:
+lang: en
 title: Specialized Care
 subtitle: 
 image: assets/img/portfolio/06-full.jpg
