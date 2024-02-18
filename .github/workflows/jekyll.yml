@@ -87,7 +87,8 @@ jobs:
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
         with:
-          source: ./_site_en
+          source: ./
+          destination: ./_site_en
 
   # Deployment job
   deploy_en:
