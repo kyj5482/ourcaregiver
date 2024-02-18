@@ -1,5 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
+  lang: en
   title: Errands and Transportation
   subtitle: 
   thumbnail: assets/img/portfolio/02-thumbnail.jpg

@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   nav:
     - title: "Services"
       section: services
-    - title: "Portfolio"
+    - title: "Work"
       section: portfolio
     - title: "About"
       section: about
@@ -32,30 +32,28 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-# Spanish
+# Korean
 # -------
-es: &DEFAULT_ES
+ko: &DEFAULT_KO
   nav:
-    - title: "Servicios"
-      section: servicios
-    - title: "Portafolio"
-      section: portafolio
-    - title: "Sobre Nosotros"
-      section: nosotros
-    - title: "Cronología"
-      section: cronologia
-    - title: "Equipo"
-      section: equipo
-    - title: "Contáctenos"
-      section: contacto
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+    - title: "서비스"
+      section: services
+    - title: "업무"
+      section: portfolio
+    - title: "회사소개"
+      section: about
+    - title: "타임라인"
+      section: timeline
+    - title: "성공사례"
+      section: team
+    - title: "문의"
+      section: contact
+ko-KR:
+  <<: *DEFAULT_KO
 
-# Deutsch
+# Chinese
 # -----------------
-de: &DEFAULT_DE
+zh: &DEFAULT_ZH
   nav:
     - title: "Leistungen"
       section: Leistungen
@@ -69,5 +67,11 @@ de: &DEFAULT_DE
       section: Team
     - title: "Kontakt"
       section: Kontakt
-de-DE:
-  <<: *DEFAULT_DE
+zh-CN:
+  <<: *DEFAULT_ZH
+zh-HK:
+  <<: *DEFAULT_ZH
+zh-SG:
+  <<: *DEFAULT_ZH
+zh-TW:
+  <<: *DEFAULT_ZH

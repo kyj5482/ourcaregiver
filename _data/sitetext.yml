@@ -32,10 +32,16 @@ en: &DEFAULT_EN
         icon: fas fa-book-open
 
   portfolio:
-    title: "Portfolio"
+    title: "What You Do"
     text: "The right care with **Our Caregiver**"
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
+
+  about:
+    title: "Why Us"
+    text: "Hassle-Free Caregiving Services"
+    body: "Our Caregiver is hassle-free caregiving services for a fraction of the time and cost. Our Caregiver started as a vision to improve and better the senior healthcare landscape that faces problems that have not kept up with modern solutions."
+    section: about
 
   timeline:
     title: "Timeline"
@@ -49,20 +55,14 @@ en: &DEFAULT_EN
         desc: "Launch **Our Caregiver** business in Vancouver"
         image: assets/img/timeline/1.jpg
         alt: Our Caregiver
-      - title: "Open Home Care Agency"
+      - title: "At-Home Senior Care Agency"
         year: "2023"
-        desc: "Hiring an in-home caregiver"
+        desc: "Hiring an in-home caregiver (Caregivers: xx)"
         image: assets/img/timeline/2.jpg
         alt:
         # you can enforce the alignment
         align: right
     end: "Be Part <br> of Our <br> Story!"
-
-  about:
-    title: "About Us"
-    text: "Hassle-Free Caregiving Services"
-    body: "Our Caregiver is hassle-free caregiving services for a fraction of the time and cost. Our Caregiver started as a vision to improve and better the senior healthcare landscape that faces problems that have not kept up with modern solutions."
-    section: about
 
   clients:
     section: clients
@@ -84,12 +84,12 @@ en: &DEFAULT_EN
 
   team:
     title: "BEST CAREGIVERS"
-    text: "High-rated care giver for customer"
+    text: "High-rated caregiver for customer"
     subtext: Would you like a rewarding and gratifying job as a **caregiver** where you can make a difference in someone’s life?
     section: team
     people:
       - name: "Kay Garland"
-        role: "4.9 ★"
+        role: "4.9 ★<br><i>I have been very pleased with Homewatch and their services. The caregivers and management are very engaged with us as the ...</i><br>- John H."
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
@@ -99,7 +99,7 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Larry Parker"
-        role: "4.8 ★"
+        role: "4.8 ★<br><i>I am so pleased with the services you are giving to my Mom. When I asked her how she would rate the service, she said \"A+\" ...</i><br>- Rosanne J."
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
@@ -109,7 +109,7 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Diana Perterson"
-        role: "4.8 ★"
+        role: "4.8 ★<br><i>Excellent caregivers! They are very attentive, responsible, and caring.</i><br>- Jan P."
         image: assets/img/team/3.jpg
         social:
           - url: https://twitter.com
@@ -157,72 +157,65 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-# Spanish
+# Korean
 # -------
-es: &DEFAULT_ES
+ko: &DEFAULT_KO
   header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
+    title: Welcome to Our Caregiver!
+    text: At-Home Senior Care
+    button: 더 알아보기
+    buttonlink: "#services"
 
   services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
+    title: "서비스"
+    text: "Our Caregiver에서 일하면 좋은점"
+    section: services
     list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
+      - title: "유연한 스케줄"
+        desc: "하루 중 언제라도 자신의 스케줄에 따라 교대 근무를 선택할 수 있습니다."
+        icon: fas fa-calendar #find more at https://fontawesome.com/icons
+      - title: "1:1 케어"
+        desc: "간병인(케어기버)은 고객을 전담하여, 고객과 진정한 관계를 유지하며 지속적으로 일할 수 있습니다."
+        icon: fas fa-user
+      - title: "교육 제공"
+        desc: "더 나은 간병인이 되는 방법을 배우고 잠재적으로 급여를 인상할 수 있는 교육 및 과정을 배울 수 있습니다."
+        icon: fas fa-book-open
+      - title: "영주권"
+        desc: "밴쿠버에서 3개월 교육 진행 후 1년간 케어기버 일을 하면서 영주권 취득 기회를 제공합니다."
+        icon: fab fa-canadian-maple-leaf
 
   portfolio:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
-    closebutton: "Cerrar Proyecto"
+    title: "하는 일"
+    text: "케어기버되면 자격에 따라서 할 수 있는 일"
+    section: portfolio
+    closebutton: "닫기"
+
+  about:
+    title: "회사 소개"
+    text: "한국인이 캐나다 케어기버가 되는 원스탑 서비스"
+    body: "Our Caregiver는 캐나다 밴쿠버에 설립한 회사로 캐나다 노인들이 편하고 안전하게 이용할 수 있는 케어 서비스 플랫폼을 제공합니다. 노인 돌봄 일을 하면서 캐나다에서 안정적으로 거주하고자 하는 한국인을 위한 에이전시 서비스도 진행하고 있습니다. "
+    section: about
 
   timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
+    title: "타임라인"
+    text: "Our Caregiver 회사 성장 이야기"
+    section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Our Caregiver 플랫폼"
+        year: "2021"
+        desc: "Our Caregiver 비즈니스 **밴쿠버** 런칭"
         image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        alt: Our Caregiver
+      - title: "노인 돌봄 에이전시"
+        year: "2023"
+        desc: "케어기버 채용 진행"
         image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
-
-  about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: nosotros
+    end: "케어기버 <br> 비즈니스 <br> 확대"
 
   clients:
     section: clientes
@@ -243,14 +236,14 @@ es: &DEFAULT_ES
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
+    title: "케어기버 성공사례"
+    text: "캐나다에서 높은 평점으로 활동하고 있는 케어기버들"
+    subtext: 누군가의 삶에 변화를 줄 수 있는 케어기버로서 보람되고 만족스러운 직업을 원하십니까?
+    section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "이케어"
+        role: "4.9 ★<br><i>캐나다 밴쿠버에서 Our Caregiver를 통해서 영주권을 받고 안정적으로 랜딩하여 살고 있어요.</i>"
+        image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -258,8 +251,8 @@ es: &DEFAULT_ES
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+      - name: "홍길동"
+        role: "4.8 ★<br><i>Our Caregiver를 알고 난 후 6개월만에 취업비자 받고 교육 후 케어기버로 일하고 있으며, 영주권이 나올때까지 1년간 열심히 일하고 있어요.</i>"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
@@ -268,9 +261,9 @@ es: &DEFAULT_ES
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+      - name: "김기버"
+        role: "4.8 ★<br><i>케어기버로 고용된 후에 Our Caregvier를 통해서 안정적인 수입과 자유로운 스케줄이 가능해서 아이들도 함께 키우고 있어요.</i>"
+        image: assets/img/team/3.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -280,22 +273,23 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
+    title: "케어기버 문의하기"
+    text: "지역: BC주 및 온타리오주 토론토 가능"
+    subtext: <br><br><br>저희는 현재 노인들에게 비의료적인 돌봄을 제공하기를 원하는 배려심 있고 친절하며 신뢰할 수 있는 사람들을 찾고 있습니다. <br><br><b>일반적으로 진행하는 업무:</b><br>* 일반적인 대화<br>* 식사 준비 <br>* 간단한 집정리<br>* 일반보조<br>* 노인 보조 (목욕, 분장, 손질)
+    section: contact
+    name: "이름"
+    name-validation: "이름을 입력해주세요."
+    email: "이메일"
+    email-validation: "이메일을 입력해주세요."
+    phone: "전화번호"
+    phone-validation: "전화번호를 입력해주세요."
+    message: "1. 학력 및 전공\r\n2. 나이\r\n3. 가족\r\n4. 직업\r\n5. IELTS 점수\r\n6. 질문"
+    message-validation: "필수 메시지를 입력해주세요."
+    subject: "Contact Form Submission"
+    submit: "이메일 발송"
 
   footer:
-    legal: "Política de Privacidad"
+    legal: "Privacy Policy"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"
@@ -307,10 +301,8 @@ es: &DEFAULT_ES
         icon: "fab fa-github"
       - url: https://instagram.com
         icon: "fab fa-instagram"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+ko-KR:
+  <<: *DEFAULT_KO
 
 # Deutsch
 # -----------------

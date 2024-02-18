@@ -1,11 +1,12 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Hygiene and Personal Care
+  lang: ko
+  title: 위생 케어
   subtitle: 
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
   
 #what displays when the item is clicked:
-title: Hygiene and Personal Care
+title: 위생 케어
 subtitle: 
 image: assets/img/portfolio/05-full.jpg
 alt: Hygiene and Personal Care
